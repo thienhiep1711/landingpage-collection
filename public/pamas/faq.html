@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="vi" class="no-js">
+<!-- Open head page -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="vi"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Hỏi đáp</title>
+    <meta name="description" content="mô tả"/>
+    <meta name="keywords" content="từ khóa"/>
+    <meta name="robots" content="noodp,index,follow"/>
+    <meta name='revisit-after' content='1 days'/>
+    <meta property="og:image" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content=""/>
+    <!--Open CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/plugins.min.css" rel="stylesheet"/>
+    <link href="css/styles.min.css" rel="stylesheet"/>
+    <link href="css/customs.css" rel="stylesheet"/>
+    <!-- Check browser not display in ie 9 -->
+    <!--[if lt IE 9]>
+        <meta http-equiv="refresh" content="0; url=detect.html"/>
+        <script type="text/javascript">
+            var regExp = / <![CDATA[ /;
+            window.top.location = 'detect.html';
+            var regExp = / ]]> /;
+        </script>
+    <![endif]-->
+    <!-- Check browser not display in ie 9 -->
+    <!--End CSS -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/modernizr-cus.js"></script>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <!--Open JavaScript Top -->
+    <script src="js/vendors.min.js"></script>
+    <script src="js/loading.min.js"></script>
+    <!--End JavaScript Top -->
+    <!--[if (gte IE 6)&(lte IE 8)]>
+        <script type="text/javascript" src="js/selectivizr-min.js"></script>
+        <noscript><link rel="stylesheet" href="css/styles.css"/></noscript>
+    <![endif]-->
+</head>
+
+<!-- End head page -->
+<body>
+    <div id="loading-wrap">
+    <div class="icon-loading-wrap"></div>
+</div>
+    <div id="wrapper">
+        <!-- Open sidebar mmenu -->
+        <div id="overlay"></div>
+<div id="header-sidebar" class="hidden-md hidden-lg">
+    <div class="left-h-sidebar">
+        <a href="#my-mobile-menu" class="sidebar-toggle js-mmenu">
+          <img src="img/img-bars.png"/>
+        </a>
+    </div>
+    <div class="right-h-sidebar">
+        <div class="logo-mobie">
+            <a href="#" title="">
+                <img src="img/logo-mobie.png" alt="" class="img-responsive" a/>
+            </a>
+        </div>
+        <div class="cogLangguage">
+            <a href="#" title=""><i class="ion-ios-gear-outline"></i></a>
+            <div class="head-lang">
+                <a class="btLangMobie" href="#" title=""><img src="img/lang-en.png" /><span>English</span><i class="fa fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#" title=""><img src="img/lang-vi.png" /><span>Vietnamese</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="boxMobieSearch">
+            <form class="frMobie-search">
+                <input type="search" placeholder="Từ khóa tìm kiếm" class="ipt-search" id="iptSearchMobie">
+                <button type="button" class="bt-search-mb">Tìm</button>
+            </form>
+        </div>
+        <div class="button-call-search"><span class="icon ion-ios-search-strong"></span></div>
+    </div>
+</div>
+
+        <!-- End sidebar mmenu -->
+        <div class="wrapper-main">
+            <!-- Open header pages -->
+            <div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="head">
+                    <div class="head-phone">
+                        <a href="tel:0934454556" title="">0934.45.45.56 <span>(TP.HCM - Vũng Tàu)</span></a>
+                        <a href="tel:0902343499" title="">0902.34.34.99 <span>(Hà Nội - Đà Nẵng)</span></a>
+                    </div>
+                    <div class="head-time"><i class="ion-ios-alarm-outline"></i><span>Thời gian làm việc: <b>09:00 - 20:00</b></span></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="logo">
+                    <a href="home.html" title=""><img src="img/logo.png" /></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="head">
+                    <div class="head-lang">
+                        <a href="#" title=""><img src="img/lang-en.png" /><span>English</span><i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#" title=""><img src="img/lang-vi.png" /><span>Vietnamese</span></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="head-social">
+                        <a href="#" title=""><span class="ion-ios-telephone-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-instagram-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-facebook-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-youtube-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-twitter-outline"></span></a>
+                    </div>
+                    <div class="head-search-nav">
+                        <form class="search-mini">
+                            <input type="text" class="ipt">
+                            <button type="button" class="bt"><span class="fa fa-search"></span></button>
+                        </form>
+                        <ul>
+                            <li><a href="news-active.html" title="">Tin tức</a></li>
+                            <li><a href="news-active.html" title="">Hoạt động</a></li>
+                            <li><a href="#" title="">Site map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header id="header-main">
+    <div class="logo-sticky">
+        <a href="home.html" title=""><img src="img/logo-sticky.png" /></a>
+    </div>
+    <div class="container">
+        <div id="mainMenu">
+            <ul>
+                <li><a href="home.html" title="">Trang Chủ</a></li>
+                <li>
+                    <a href="history.html" title="">Triết lý điều trị  </a>
+
+                </li>
+                <li class="m-no-relative">
+                    <a href="post-before-after.html" title="">Pamas Advanced Skincare<i class="ion-chevron-down"></i></a>
+                    <ul class="mega-sub">
+                        <li>
+                            <a href="post-before-after.html" title="">ĐẶC TRỊ DA CÔNG NGHỆ CAO </a>
+                            <ul>
+                                <li>
+                                    <a href="#" title="">Trị nám</a>
+                                    <ul>
+                                        <li><a href="#" title="">Trị nám Ever White</a> </li>
+                                        <li><a href="#" title="">Trị nám Ever White Plus</a></li>
+                                        <li><a href="#" title="">Trị nám SkinReborn</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Trẻ hóa</a>
+                                    <ul>
+                                        <li><a href="#" title="">Trẻ hóa đỉnh cao Ultherapy</a> </li>
+                                        <li><a href="#" title="">Trẻ hóa da YouthSkin</a></li>
+                                        <li><a href="#" title="">Trẻ hóa SkinReborn</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Trị mụn </a>
+                                    <ul>
+                                        <li><a href="#" title="">Trị mụn ALA</a> </li>
+                                        <li><a href="#" title="">Trị mụn SkinReborn</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Trị Sẹo/Lỗ chân lông/Rạn da</a>
+                                    <ul>
+                                        <li><a href="#" title="">Trị sẹo BioScar</a> </li>
+                                        <li><a href="#" title="">Trị sẹo NanoScar</a></li>
+                                        <li><a href="#" title="">Trị sẹo SkinReborn</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Trị giãn mao mạch</a>
+                                    <ul>
+                                        <li><a href="#" title="">Trị giãn mao mạch Royal Light</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="post-before-after.html" title="">TÁI TẠO DA CHUYÊN SÂU</a>
+                            <ul>
+                                <li><a href="#" title="">Tập thể dục cho da SkinGym</a></li>
+                                <li><a href="#" title="">OxyRescueh</a></li>
+                                <li><a href="#" title="">Tế bào gốc GeneCell</a></li>
+                                <li><a href="#" title="">PRP - Extra</a></li>
+                                <li><a href="#" title="">Soft Laser</a></li>
+                                <li><a href="#" title="">Aquasheer</a></li>
+                                <li><a href="#" title="">Ánh Sáng Cromo</a></li>
+                                <li><a href="#" title="">Silky 3D</a></li>
+                                <li><a href="#" title="">Collagen lụa tơ tằm</a></li>
+                                <li><a href="#" title="">Meso White </a></li>
+                                <li><a href="#" title="">Sakura Laser</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="faq.html" title="">Thẩm mỹ công nghệ cao<i class="ion-chevron-down"></i></a>
+                    <ul class="single-sub">
+                        <li>
+                            <a href="#" title="">Tạo hình khuôn mặt </a>
+                            <ul>
+                                <li><a href="#" title="">Thẩm mỹ mũi</a></li>
+                                <li><a href="#" title="">Thẩm mỹ mắt</a></li>
+                                <li><a href="#" title="">Tạo cằm V-line</a></li>
+                                <li><a href="#" title="">Căng da mặt</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+                            <a href="#" title="">Làm trắng da</a>
+                            <ul>
+                                <li><a href="#" title="">Trắng da phi thuyền toàn thân</a></li>
+                                <li><a href="#" title="">Truyền trắng body toàn thân</a></li>
+                                <li><a href="#" title="">Truyền trắng mướt toàn thân</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" title="">Trị rạn da cơ thể</a>
+                            <ul>
+                                <li><a href="#" title="">Trị Rạn Da Skin Reborn</a></li>
+                                <li><a href="#" title="">SkinGym</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="">Triệt lông</a>
+                            <ul>
+                                <li><a href="#" title="">Triệt lông vĩnh viễn Diode Laser Revolution</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="faq.html" title="">Chăm sóc cơ thể <i class="ion-chevron-down"></i></a>
+                    <ul class="single-sub">
+                        <li>
+                            <a href="#" title="">Jjim Jil Bang</a>
+
+                        </li>
+                        <li><a href="#" title="">Foot Massage</a></li>
+                        <li>
+                            <a href="#" title="">Body Massage</a>
+                            <ul>
+                                <li><a href="#" title="">Full Body Massage</a></li>
+                                <li><a href="#" title="">Massage thư giãn</a></li>
+                                <li><a href="#" title="">Deep Tissue</a></li>
+                                <li><a href="#" title="">Massage đá nóng</a></li>
+                                <li><a href="#" title="">Massage Thái</a></li>
+                                <li><a href="#" title="">Massage hồi phục toàn diện (đắp mặt nạ + massage)</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="">Xông hơi</a>
+                            <ul>
+                                <li><a href="#" title="">Jing Jing Bang Hàn Quốc</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" title="">Câu chuyện KH</a></li>
+                <li><a href="contact.html" title="">Tư vấn</a></li>
+                <li><a href="contact.html" title="">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- /header -->
+
+            <!-- End header pages -->
+
+            <div class="crumbar">
+                <div class="container">
+                    <ul>
+                        <li><a href="#" title=""><i class="ion-ios-home"></i></a></li>
+                        <li class="active"><a href="#" title=""><i class="ion-chevron-right"></i>Hỏi đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content-wrap ">
+                    <h1 class="title-page">Hỏi Đáp</h1>
+                    <div class="list-faq">
+    <div class="item-faq">
+        <a class="title" href="faq-detail.html" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="faq-detail.html" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="faq-detail.html" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="faq-detail.html" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="faq-detail.html" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="faq-detail.html" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+    <div class="item-faq">
+        <a class="title" href="#" title="">The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</a>
+        <div class="option">
+            <a href="#" title="">Xem chi tiết <i class="ion-ios-arrow-thin-right"></i></a>
+            <span>(Nguyễn Oanh - NV Văn phòng)</span>
+        </div>
+    </div>
+</div>
+
+<div class="div-phantrang">
+    <div class="dot-fillin">
+        <ul>
+            <li><a title="" href="#"><span class="ion-ios-arrow-thin-left"></span></a></li>
+            <li class="current"><a title="" href="#">2</a></li>
+            <li><a title="" href="#">3</a></li>
+            <li><a title="" href="#">4</a></li>
+            <li><a title="" href="#">5</a></li>
+            <li><a title="" href="#">6</a></li>
+            <li><a title="" href="#"><span class="ion-ios-arrow-thin-right"></span></a></li>
+        </ul>
+    </div>
+</div>
+
+                </div>
+
+                <div class="sidebar-wrap">
+                    <div class="singleSearch">
+                        <form method="post">
+                            <input type="search" class="ipt" placeholder="Từ khoá tìm kiếm"/>
+                            <button type="submit" class="bt"><span class="ion-ios-search-strong"></span></button>
+                        </form>
+                    </div>
+                    <div class="register-side-form">
+    <h3>Đăng ký tư vấn</h3>
+    <form>
+        <input type="text" placeholder="Họ và Tên" class="ipt"/>
+        <input type="text" placeholder="Số Điện Thoại" class="ipt"/>
+        <input type="text" placeholder="Dịch vụ yêu cầu" class="ipt"/>
+        <button type="submit" class="bt">Đăng ký</button>
+    </form>
+</div>
+                    <div class="sidebar-title">
+                        <h3>Danh mục</h3>
+                    </div>
+                    <div class="list-cate-sidebar">
+                        <ul>
+                            <li><a href="#" title="">Điều Trị Nám Da</a></li>
+                            <li><a href="#" title="">Điều Trị Mụn Rỗ</a></li>
+                            <li><a href="#" title="">Trẻ Hoá Làn Da</a></li>
+                            <li><a href="#" title="">Điều Trị Nám Da</a></li>
+                            <li><a href="#" title="">Điều Trị Mụn Rỗ</a></li>
+                            <li><a href="#" title="">Trẻ Hoá Làn Da</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-title">
+                        <h3>Dịch vụ nổi bật</h3>
+                    </div>
+                    <div class="sidebar-qc">
+    <a href="#" title=""><img src="img/banner-qc-1.jpg" class="img-responsive"/></a>
+</div>
+                    <div class="sidebar-title">
+                        <h3>Câu chuyện khách hàng</h3>
+                    </div>
+                    
+<div class="news-sidebar-list">
+    <div class="item-sidebar">
+        <div class="img">
+            <a href="#" title=""><img src="img/img-news-side-1.jpg" class="img-responsive" /></a>
+        </div>
+        <div class="detail">
+            <h3>
+                <a href="#" title=""><i class="ion-ios-videocam"></i>Survey Shows Two Thirds Of Migraine Sufferers Dissatisfied</a>
+            </h3>
+
+        </div>
+    </div>
+    <div class="item-sidebar">
+        <div class="img">
+            <a href="#" title=""><img src="img/img-news-side-2.jpg" class="img-responsive" /></a>
+        </div>
+        <div class="detail">
+            <h3>
+                <a href="#" title=""><i class="ion-images"></i>Survey Shows Two Thirds Of Migraine Sufferers Dissatisfied</a>
+            </h3>
+
+        </div>
+    </div>
+    <div class="item-sidebar">
+        <div class="img">
+            <a href="#" title=""><img src="img/img-news-side-3.jpg" class="img-responsive" /></a>
+        </div>
+        <div class="detail">
+            <h3>
+                <a href="#" title=""><i class="ion-ios-videocam"></i>Survey Shows Two Thirds Of Migraine Sufferers Dissatisfied</a>
+            </h3>
+
+        </div>
+    </div>
+    <div class="item-sidebar">
+        <div class="img">
+            <a href="#" title=""><img src="img/img-news-side-4.jpg" class="img-responsive" /></a>
+        </div>
+        <div class="detail">
+            <h3>
+                <a href="#" title=""><i class="ion-images"></i>Survey Shows Two Thirds Of Migraine Sufferers Dissatisfied</a>
+            </h3>
+
+        </div>
+    </div>
+    <div class="item-sidebar">
+        <div class="img">
+            <a href="#" title=""><img src="img/img-news-side-5.jpg" class="img-responsive"/></a>
+        </div>
+        <div class="detail">
+            <h3>
+                <a href="#" title=""><i class="ion-ios-videocam"></i>Survey Shows Two Thirds Of Migraine Sufferers Dissatisfied</a>
+            </h3>
+
+        </div>
+    </div>
+    <a href="#" title=""class="bt-readmore">Xem danh mục</a>
+</div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Open main pages -->
+            <!-- End main pages -->
+            <!-- Open footer pages -->
+            <div class="footer-wrap">
+    <div class="arrow-foo"></div>
+    <div class="foo-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <ul>
+                        <li><a href="#" title="">Về chúng tôi</a></li>
+                        <li><a href="#" title="">Lịch sử</a></li>
+                        <li><a href="#" title="">Cơ sở hạ tầng</a></li>
+                        <li><a href="#" title="">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <ul>
+                        <li><a href="#" title="">Dịch vụ điều trị</a></li>
+                        <li><a href="#" title="">Câu hỏi thường gặp</a></li>
+                        <li><a href="#" title="">Hồi đáp khách hàng</a></li>
+                        <li><a href="#" title="">Web map</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <ul>
+                        <li><a href="#" title="">Ưu đãi</a></li>
+                        <li><a href="#" title="">Bảng giá</a></li>
+                        <li><a href="#" title="">Chi phí theo liệu trình</a></li>
+                        <li><a href="#" title="">Khách hàng đặc biệt</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <ul>
+                        <li><a href="#" title="">Điều trị chăm sóc da</a></li>
+                        <li><a href="#" title="">Điều trị nám</a></li>
+                        <li><a href="#" title="">Điều trị sẹo</a></li>
+                        <li><a href="#" title="">Điều trị sẹo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foo-company">
+        <div class="container">
+            <div class="logo-foo">
+                <a href="#" title=""><img src="img/logo-foo.png" class="img-responsive"></a>
+            </div>
+            <div class="logo-name">
+                <h4>PAMAS BEAUTY GROUP</h4>
+                <p>Sứ mệnh của Pamas là cung cấp những dịch vụ làm đẹp hoàn hảo giúp mang lại sức khoẻ, vẻ đẹp và hạnh phúc mỗi ngày cho mọi khách hàng.</p>
+            </div>
+        </div>
+    </div>
+    <div class="foo-spa">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <strong><i class="fa fa-map-marker"></i>Hà Nội</strong>
+                    <span>57 Thái Hà, Q.Đống Đa  | <a href="tel:0435379980">04 – 3537 9980</a></span>
+                    <span>01 Hòa Mã, Q. Hai Bà Trưng   | <a href="tel:0439761423">04 – 3976 1423</a></span>
+                    <span>37 Thợ Nhuộm, Q. Hoàn Kiếm  | <a href="tel:0439361350"> 04 – 3936 1350</a></span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <strong><i class="fa fa-map-marker"></i>TP. Hồ Chí Minh</strong>
+                    <span>* 63 Sương Nguyệt Ánh, Q.1  |  <a href="tel:0839252344">08 – 3925 2344</a></span>
+                    <span>* 12L1, Vincom B,72 Lê Thánh Tôn, Q.1 | <a href="tel:0866848344">086.684.8344</a></span>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <strong><i class="fa fa-map-marker"></i>Vũng Tàu</strong>
+                    <span>188 Trương Công Định, TP. Vũng Tàu | <a href="tel:0643554437">064 – 355 4437</a></span>
+                    <strong><i class="fa fa-map-marker"></i>Đà Nẵng</strong>
+                    <span>188 Hoàng Diệu, Q.Hải Châu | ĐT: <a href="tel:05113868900">0511 – 386 8900</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-social">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 pull-right">
+                    <div class="foo-social">
+                        <a href="#" title=""><span class="ion-ios-telephone-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-instagram-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-facebook-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-youtube-outline"></span></a>
+                        <a href="#" title=""><span class="ion-social-twitter-outline"></span></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 pull-left">
+                    <div class="copy-right">
+                        <span>© Bản quyền thuộc về <b>Pamas</b> 2016 Điều khoản</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a href="#" id="scrollTop"><span class="ion-android-arrow-up"></span></a>
+</div>
+            <div class="navi-sticky">
+    <a href="tel:0439361350" title="" class="bt-sticky" onclick="callPopupCart()"><i class="ion-android-call"></i></a>
+    <a href="#" title="" class="bt-phone"><i class="ion-chatbox-working"></i></a>
+</div>
+            <!-- End footer pages -->
+        </div>
+    </div>
+    <!-- Open content bottom pages -->
+    <div class="hotline-sticky-wrap">
+    <div class="container">
+        <strong class="stick">(*) Hiệu quả tùy thuộc vào cơ địa của từng người</strong>
+        <div class="hotline-sticky">
+            <div class="foo-phone">
+                <a href="tel:0439361350" title="">
+                    <strong>04-3936 1350</strong>
+                    <span>Gọi Tư Vấn Ngay!</span>
+                </a>
+            </div>
+            <a href="#" title="" class="support-box">
+                <span>Tư Vấn Trực Tuyến</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!--Open JavaScript Bot -->
+<script src="js/plugins.min.js"></script>
+<script src="js/customs.js"></script>
+<script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', function () {
+        new QueryLoader2(document.querySelector("body"), {
+            barColor: "#d3bd2b",
+            backgroundColor: "#563836",
+            percentage: false,
+            barHeight: 0,
+            minimumTime: 300,
+            fadeOutTime: 0,
+            onComplete: function () {
+                afterLoad()
+            }
+        });
+    });
+</script>
+
+
+    <!-- End content bottom pages -->
+</body>
+</html>
