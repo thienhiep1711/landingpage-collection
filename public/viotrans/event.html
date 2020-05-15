@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="vi">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="mô tả">
+    <meta name="keywords" content="từ khóa">
+    <meta name="robots" content="noodp,index,follow">
+    <meta name="revisit-after' content='1 days">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="img/icons/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/vendors.js"></script>
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <div class="sidebar js-sidebar">
+        <div class="sidebar__wrap">
+          <div class="sidebar__toggle"><a class="sidebar-toggle js-slideout-toggle" href="#"><span class="sidebar-toggle__icon"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span></span></a></div>
+          <div class="sidebar__inner">
+            <div class="sidebar-logo"><a class="sidebar-logo__inner" href="#" title=""><img class="sidebar-logo__image" src="img/logo/logo.png" alt=""></a></div>
+            <div class="sidebar-search">
+              <div class="sidebar-search__inner">
+                <div class="sidebar-search__button js-search-trigger"><span class="icon ion-ios-search-strong"></span></div>
+                <div class="sidebar-search__main">
+                  <form class="sidebar-search__form">
+                    <input class="sidebar-search__input" id="iptSearchMobie" type="search" placeholder="Từ khóa...">
+                    <button class="sidebar-search__submit" type="button"><span class="icon ion-ios-search-strong"></span></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar__overlay js-sidebar-overlay"></div>
+        <div class="slideout js-slideout" role="navigation">
+          <div class="slideout__container">
+            <div class="slideout__inner">
+              <div class="menu js-menu-mobile">
+                <div class="menu__inner">
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Trang chủ</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Giới thiệu</a></div>
+                  </div>
+                  <div class="menu__item menu__item--sub">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Sản phẩm</a><a class="menu__toggle"><i class="icon ion-ios-arrow-right"></i></a></div>
+                    <div class="menu__dropdown">
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Sản phẩm cấp 2</a></div>
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Sản phẩm cấp 3</a></div>
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Sản phẩm cấp 4</a></div>
+                    </div>
+                  </div>
+                  <div class="menu__item menu__item--sub">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Dịch vụ</a><a class="menu__toggle"><i class="icon ion-ios-arrow-right"></i></a></div>
+                    <div class="menu__dropdown">
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Thiết kế webste</a></div>
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Tư vấn phần mềm</a></div>
+                      <div class="menu__item"><a class="menu-link" href="#" title="">Seo Website</a></div>
+                    </div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Tin tức</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Hỏi Đáp</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Liên hệ</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Tin tức</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Hỏi Đáp</a></div>
+                  </div>
+                  <div class="menu__item">
+                    <div class="menu__title"><a class="menu-link" href="#" title="">Liên hệ</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slideout__overlay js-slideout-overlay"></div>
+        </div>
+      </div>
+      <div class="main" id="main">
+        <header class="header">
+          <div class="navigation">
+            <div class="container navigation__container">
+              <div class="navigation__inner">
+                <div class="navigation__logo"><a class="navigation__logo-link" href="home.html" title=""><img src="./img/logo/logo.png" alt=""></a></div>
+                <div class="navigation__main">
+                  <div class="navigation__contact"><a href="tel:0966.826.599" title="0966.826.599"><i class="icon ion-ios-telephone"></i><span>0966.826.599</span></a><a href="mailto:booking@viotrans.vn" title="booking@viotrans.vn"><i class="icon ion-ios-email"></i><span>booking@viotrans.vn</span></a></div>
+                  <div class="navigation__social"><a href="#" title=""><i class="icon ion-social-twitter"></i></a><a href="#" title=""><i class="icon ion-social-facebook"></i></a></div>
+                  <div class="navigation__langguage js-langguage">
+                    <div class="navigation__langguage-toggle js-language-toogle"><a class="navigation__langguage-item" href="#" title=""><img src="img/flags/lang-en.png"><span class="navigation__langguage-title">English</span></a><i class="icon ion-ios-arrow-down"></i></div>
+                    <div class="navigation__langguage-dropdown js-langguage-dropdown"><a class="navigation__langguage-item" href="#" title=""><img src="img/flags/lang-en.png"><span class="navigation__langguage-title">English</span></a><a class="navigation__langguage-item" href="#" title=""><img src="img/flags/lang-vi.png"><span class="navigation__langguage-title">Vietnamese</span></a><a class="navigation__langguage-item" href="#" title=""><img src="img/flags/lang-ja.png"><span class="navigation__langguage-title">Japannes</span></a><a class="navigation__langguage-item" href="#" title=""><img src="img/flags/lang-kr.png"><span class="navigation__langguage-title">Korea</span></a></div>
+                  </div>
+                  <div class="navigation__account"><a class="bt bt--link navigation__account-button" href="#">Đăng nhập</a><a class="bt bt--primary navigation__account-button" href="#">Đăng ký</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-main">
+            <div class="nav-main__wrap">
+              <div class="container nav-main__container">
+                <div class="nav-main__inner">
+                  <div class="nav-main__menu">
+                    <ul>
+                      <li><a href="home.html" title=""><i class="icon ion-ios-home"></i></a></li>
+                      <li><a href="about.html" title=""><i class="icon ion-ios-information-outline"></i><span>Giới thiệu</span></a></li>
+                      <li><a href="product.html" title=""><i class="icon ion-android-car"></i><span>Xe & Dịch vụ</span></a></li>
+                      <li><a href="product-detail.html" title=""><i class="icon ion-ios-person-outline"></i><span>Tư vấn</span></a></li>
+                      <li><a href="event.html" title=""><i class="icon ion-cash"></i><span>Bảng giá</span></a></li>
+                      <li><a href="blog.html" title=""><i class="icon ion-paper-airplane"></i><span>Khám phá</span></a></li>
+                      <li><a href="partner.html" title=""><i class="icon ion-man"></i><span>Tuyển dụng</span></a></li>
+                      <li><a href="contact-us.html" title=""><i class="icon ion-ios-contact-outline"></i><span>Liên hệ</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="nav-main__search">
+                    <div class="nav-main__search-inner">
+                      <div class="nav-main__search-button js-main-search-trigger"><span class="icon ion-ios-search-strong"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="carousel-product">
+          <div class="carousel carousel--product js-carousel-product">
+            <div class="carousel__item">
+              <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/banner-product-1.jpg" title="" alt=""/></figure>
+            </div>
+            <div class="carousel__item">
+              <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/banner-product-2.jpg" title="" alt=""/></figure>
+            </div>
+            <div class="carousel__item">
+              <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/banner-product-3.jpg" title="" alt=""/></figure>
+            </div>
+            <div class="carousel__item">
+              <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/banner-product-1.jpg" title="" alt=""/></figure>
+            </div>
+            <div class="carousel__item">
+              <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/banner-product-2.jpg" title="" alt=""/></figure>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="page-title">
+            <h1 class="page-title__text">Lễ hội chùa hương</h1>
+          </div>
+          <div class="event-info">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="event__info-carousel">
+                  <div class="event-info__inner">
+                    <div class="carousel carousel--event-info js-carousel-event-info">
+                      <div class="carousel__item"><a herf="#" title>
+                          <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-1.jpg" title="" alt=""/></figure></a></div>
+                      <div class="carousel__item"><a herf="#" title>
+                          <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-1.jpg" title="" alt=""/></figure></a></div>
+                      <div class="carousel__item"><a herf="#" title>
+                          <figure class="image-lazy carousel__image image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-1.jpg" title="" alt=""/></figure></a></div>
+                    </div>
+                  </div>
+                  <div class="event-info__inner-detail">
+                    <ul>
+                      <li><strong>Thời gian:</strong><span>11/12/2020</span></li>
+                      <li><strong>Hành trình:</strong><span>Hà Nội - Chùa Hương</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="event__info-map">
+                  <div class="event-info__inner">
+                    <figure class="image-lazy event__info-map-img image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                  </div>
+                  <div class="event-info__inner-detail">
+                    <ul>
+                      <li><strong>Địa điểm:</strong><span>Bắc Ninh</span></li>
+                      <li><strong>Hành trình:</strong><span>Khoảng cách 200km</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="event-info__option"><a class="bt bt--primary event-info__option-button" href="#">Đặt xe</a>
+              <div class="event-info__option-share">
+                <figure class="image-lazy image-lazy--normal"><img class="image-lazy__img" src="img/products/social-share.jpg" title="" alt=""/></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-detail">
+          <div class="container">
+            <div class="product-detail__inner">
+              <div class="product-detail__main">
+                <div class="section-box">
+                  <div class="section-box__inner">
+                    <div class="section-box__title">
+                      <h3 class="section-box__text">Thông tin chi tiết</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <div class="product-detail__description">
+                        <p>Xe du lịch UNIVERSE là loại xe hiện đang được sử dụng nhiều nhất trong những chuyến du lịch đường dài hiện nay , những công nghệ cao nhất được sử dụng để phục vụ khiến khách hàng có cảm giác thoải mái nhất!</p>
+                        <p>-với những thông số kỹ thuật trên xe sẽ giúp bạn có những chuyến đi an toàn và tiết kiêm nguyên liệu</p>
+                        <p>-Số chỗ 45 Loại động cơ Diesel: D6AB-D, TCI (có tăng áp và làm mát khí nạp)Dung tích bình xăng (lít)310 Nhiên liệu DieselTính năng</p>
+                        <p>Chống bó cứng phanh ABS</p>
+                        <p>-Hệ thống phanh trợ lực ASR</p>
+                        <p>-Hệ thống hơi</p>
+                        <p>-Công suất: 290PS, tiêu chuẩn khí thải Euro II.</p>
+                        <p>-Thể tích hầm hàng: 2.200* 860* 675 (mm)Tiện nghi • Ghế da cao cấp 2 màu</p>
+                        <p>-tiện nghi trong xe cũng vậy rất đầy đủ và tiên nghi. thuê xe có lái giá rẻ nhưng chất lượng tuyệt đối an toàn cho mỏi nẻo đường bạn đi tới</p>
+                        <p>•Màn hình LCD + DVD</p>
+                        <p>•Cửa sổ bên tài điều chỉnh điện</p>
+                        <p>•Ghế tài loại ghế hơi</p>
+                        <p>•Kính chiếu hậu điều chỉnh điện</p>
+                        <p>•Cần số ngắn</p>
+                        <p>•Vách ngăn giữa khoang tài xế và khoang hành khách</p>
+                        <p>•Đồng hồ Digital</p>
+                        <p>•Đèn trần loại dài, đèn trang trí giá hành lý</p>
+                        <p>•Rèm cửa (Option)</p>
+                        <p>Số chỗ 45 Loại động cơ Diesel: D6AB-D, TCI (có tăng áp và làm mát khí nạp)Dung tích bình xăng (lít)310 Nhiên liệu DieselTính năng Chống bó cứng phanh ABS Số chỗ 45 Loại động cơ Diesel: D6AB-D, TCI (có tăng áp và làm mát khí nạp)Dung tích bình xăng</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-box">
+                  <div class="section-box__inner">
+                    <div class="section-box__title">
+                      <h3 class="section-box__text">Giới thiệu sự kiện</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <div class="carousel carousel--type js-carousel-logo">
+                        <div class="carousel__item"><a class="carousel__link" herf="#" title>
+                            <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-1.jpg" title="" alt=""/></figure></a></div>
+                        <div class="carousel__item"><a class="carousel__link" herf="#" title>
+                            <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-2.jpg" title="" alt=""/></figure></a></div>
+                        <div class="carousel__item"><a class="carousel__link" herf="#" title>
+                            <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-3.jpg" title="" alt=""/></figure></a></div>
+                        <div class="carousel__item"><a class="carousel__link" herf="#" title>
+                            <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-4.jpg" title="" alt=""/></figure></a></div>
+                        <div class="carousel__item"><a class="carousel__link" herf="#" title>
+                            <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/products/img-event-1.jpg" title="" alt=""/></figure></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-box">
+                  <div class="section-box__inner">
+                    <div class="section-box__title">
+                      <h3 class="section-box__text">Các loại dịch vụ xe 4 chỗ</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-card">
+                        <div class="product-card__inner">
+                          <div class="product-card__view">
+                            <figure class="image-lazy product-card__img image-lazy--contain"><img class="image-lazy__img" src="img/products/product-detail.jpg" title="" alt=""/></figure>
+                          </div>
+                          <div class="product-card__content">
+                            <div class="product-card__title"><a class="product-card__link" href="#" title="">Dịch vụ xe 4 chỗ hạng phổ thông</a>
+                              <div class="product-card__price">2.000.000 đ</div>
+                            </div>
+                            <div class="product-card__description">
+                              <p>Dòng xe Dcar Limousine được cải tiến từ dòng xe Ford Transit 16 chỗ, với số lượng ghế chỉ còn 9 chỗ được thiết kế hoàn toàn mới có độ ngả vừa đủ, cho không gian sử dụng cực kỳ rộng rãi, đảm bảo đem đến cho khách hàng  một trải nghiệm đẳng cấp và sang trọng.</p>
+                            </div><a class="bt bt--primary product-card__button" href="#" title="">Đặt xe</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-box__inner">
+                    <div class="section-box__title">
+                      <h3 class="section-box__text">Đánh giá - Bình luận</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <div class="product-detail__comment">
+                        <figure class="image-lazy img-responsive image-lazy--normal"><img class="image-lazy__img" src="img/background/facebook.jpg" title="" alt=""/></figure>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-detail__sidebar">
+                <div class="section-box">
+                  <div class="section-box__inner">
+                    <div class="section-box__title">
+                      <h3 class="section-box__text">Các sự kiện cùng thời điểm</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <div class="event-list">
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="event-card">
+                          <div class="event-card__inner">
+                            <div class="event-card__image">
+                              <figure class="image-lazy event-card__image-img image-lazy--cover"><img class="image-lazy__img" src="img/products/img-event-info-2.jpg" title="" alt=""/></figure>
+                            </div>
+                            <div class="event-card__content"><a class="event-card__title" href="#" title="#">Lễ hội đền Gióng</a><span class="event-card__date">05/11/2019</span>
+                              <div class="event-card__description">Nguyên Khê, Đông Anh, Hanoi</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-box">
+                  <div class="section-box__inner">
+                    <div class="section-box__title section-box__title--red">
+                      <h3 class="section-box__text">Thông tin booking</h3>
+                    </div>
+                    <div class="section-box__content">
+                      <form class="product-booking"><strong class="product-booking__title">Hành trình</strong>
+                        <div class="product-booking__entry">
+                          <div class="product-booking__entry-box">
+                            <input class="product-booking__entry-input form-control" type="text" placeholder="Nhập địa chỉ và chọn">
+                          </div>
+                          <div class="product-booking__entry-box">
+                            <input class="product-booking__entry-input form-control" type="text" placeholder="Nhập địa chỉ và chọn">
+                          </div>
+                          <div class="product-booking__entry-box product-booking__entry-box--add">
+                            <input class="product-booking__entry-input form-control" type="text" placeholder="Thêm điểm đến">
+                          </div>
+                        </div><strong class="product-booking__title">Hình thức</strong>
+                        <div class="product-booking__form">
+                          <select class="form-control">
+                            <option value="1">Một chiều</option>
+                            <option value="1">Hai chiều</option>
+                          </select>
+                        </div><strong class="product-booking__title">Ngày đi</strong>
+                        <div class="product-booking__form">
+                          <input class="form-control form-control__icon" type="text" placeholder="2020-02-14 08:00">
+                        </div><strong class="product-booking__title">Ngày về</strong>
+                        <div class="product-booking__form">
+                          <input class="form-control form-control__icon" type="text" placeholder="2020-02-14 08:00">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-footer">
+          <div class="container">
+            <div class="carousel carousel--footer js-carousel-logo">
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-1.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-2.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-3.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-4.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-5.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-6.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-1.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-2.jpg" title="" alt=""/></figure></a></div>
+              <div class="carousel__item"><a herf="#" title>
+                  <figure class="image-lazy carousel__image image-lazy--contain"><img class="image-lazy__img" src="img/logo/logo-foo-3.jpg" title="" alt=""/></figure></a></div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__inner">
+              <div class="footer__top">
+                <div class="footer__top-inner">
+                  <div class="footer__contact">
+                    <h4>Liên hệ</h4>
+                    <ul>
+                      <li><i class="icon ion-android-pin"></i><span>Số 38, đường Đình Thôn, phường Mỹ Đình 1, quận Nam Từ Liêm, Hà Nội, Việt Nam</span></li>
+                      <li><i class="icon ion-ios-telephone"></i><a href="tel:0966.826.599" titl="0966.826.599">0966.826.599</a></li>
+                      <li><i class="icon ion-ios-email"></i><a href="mailto:booking@viotrans.vn" title="booking@viotrans.vn">booking@viotrans.vn</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__letter">
+                    <h5>Đăng ký nhận bản tin khuyến mãi</h5>
+                    <div class="footer__letter-form">
+                      <input class="footer__letter-input" type="text" placeholder="Email">
+                      <button class="bt bt--primary" type="submit">Đăng ký</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__center">
+                <div class="footer__center-inner">
+                  <div class="footer__info">
+                    <h4>Vio Transport – Dịch vụ đặt xe trực tuyến</h4>
+                    <div class="footer__info-content">
+                      <p>Dịch vụ đáp ứng nhu cầu thuê xe có tài xế hay tài xế biết ngoại ngữ theo chuyến hay theo tháng để đưa đón nhân viên, đưa đón khách VIP, đưa rước sân bay, đi công tác, đi sự kiện, đi du lịch, đi team-building, về quê, cưới hỏi...</p>
+                    </div>
+                  </div>
+                  <div class="footer__social">
+                    <h5>Kết nối với chúng tôi</h5>
+                    <div class="footer__social-list"><a class="footer__social-item" href="" title><i class="icon ion-social-facebook"></i></a><a class="footer__social-item" href="" title><i class="icon ion-social-googleplus"></i></a><a class="footer__social-item" href="" title><i class="icon ion-social-twitter"></i></a><a class="footer__social-item" href="" title><i class="icon ion-social-youtube"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__bottom">
+                <div class="footer__bottom-inner">
+                  <div class="footer__link">
+                    <h4>Link nhanh</h4>
+                    <ul>
+                      <li><a href="#" title="">Giới thiệu</a></li>
+                      <li><a href="#" title="">Blog</a></li>
+                      <li><a href="#" title="">Tuyển dụng</a></li>
+                      <li><a href="#" title="">Liên hệ</a></li>
+                      <li><a href="#" title="">Xe sân bay 4 chỗ</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__copyright"><span>Copyright © 2020 Vio Trans. All rights reserved.</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div><a id="scrollTop" href="#"><span class="ion-arrow-up-a"></span></a>
+    <script src="js/plugins.js"></script>
+    <script src="js/flickity.js"></script>
+    <script src="js/customs.js"></script>
+  </body>
+</html>
