@@ -161,55 +161,75 @@
             </div>
             <div class="register-partner__inner">
               <div class="register-partner__form">
-                <div class="row">
-                  <div class="col-lg-4 register-partner__col">
-                    <div class="form-group">
-                      <input class="register-partner__input" type="text" placeholder="Nhập họ tên">
-                      <label class="error">*</label>
+                <div class="container">
+                  <form class="contact-us__form" action="#">
+                    <div class="row">
+                      <div class="col-lg-7 register-partner__col-left">
+                        <div class="row">
+                          <div class="col-md-6 register-partner__col">
+                            <div class="form-group">
+                              <input class="register-partner__input form-control" type="text" placeholder="Nhập họ tên">
+                              <label class="error">*</label>
+                            </div>
+                            <div class="form-group">
+                              <input class="register-partner__input form-control" type="text" placeholder="Nhập số điện thoại">
+                              <label class="error">*</label>
+                            </div>
+                            <div class="form-group">
+                              <input class="register-partner__input form-control" type="text" placeholder="Email">
+                              <label class="error">*</label>
+                            </div>
+                            <select class="register-partner__select form-control" name="">
+                              <option value="1">Chọn loại đối tác</option>
+                              <option value="1">AUDI</option>
+                              <option value="2">BMW</option>
+                              <option value="3">TOYOTA</option>
+                              <option value="4">HONDA</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 register-partner__col">
+                            <div class="form-group">
+                              <input class="register-partner__input form-control" type="text" placeholder="Nhập tên công ty">
+                              <label class="error">*</label>
+                            </div>
+                            <div class="form-group">
+                              <select class="register-partner__select form-control" name="">
+                                <option value="1">Chọn tỉnh/thành phố</option>
+                                <option value="1">Hà Nội</option>
+                                <option value="2">TPHCM</option>
+                                <option value="3">Đà Nẵng</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <select class="register-partner__select form-control" name="">
+                                <option value="1">Chọn quận/huyện</option>
+                                <option value="1">Đống Đa</option>
+                                <option value="2">Hà Đông</option>
+                                <option value="3">Thanh Xuân</option>
+                              </select>
+                            </div>
+                            <div class="form-group">
+                              <select class="register-partner__select form-control" name="">
+                                <option value="1">Chọn loại dịch vụ</option>
+                                <option value="1">Xe cá nhân</option>
+                                <option value="2">Xe hợp đồng</option>
+                                <option value="3">Thuê xe sân bay</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6 register-partner__col register-partner__link">
+                            <div class="form-group">
+                              <button class="btn btn-primary register-partner__submit" id="frmButton" type="submit">Đăng Ký</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-5 register-partner__col-right">
+                        <div class="register-partner__banner"><a herf="#" title>
+                            <figure class="image-lazy register-partner__image image-lazy--contain"><img class="image-lazy__img" src="img/partner/register-banner.jpg" title="" alt=""/></figure></a></div>
+                      </div>
                     </div>
-                    <div class="form-group">
-                      <input class="register-partner__input" type="text" placeholder="Nhập số điện thoại">
-                      <label class="error">*</label>
-                    </div>
-                    <div class="form-group">
-                      <input class="register-partner__input" type="text" placeholder="Email">
-                      <label class="error">*</label>
-                    </div>
-                    <select class="register-partner__select" name="">
-                      <option value="1">Chọn loại đối tác</option>
-                      <option value="1">AUDI</option>
-                      <option value="2">BMW</option>
-                      <option value="3">TOYOTA</option>
-                      <option value="4">HONDA</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-4 register-partner__col">
-                    <div class="form-group">
-                      <input class="register-partner__input" type="text" placeholder="Nhập tên công ty">
-                      <label class="error">*</label>
-                    </div>
-                    <select class="register-partner__select" name="">
-                      <option value="1">Chọn tỉnh/thành phố</option>
-                      <option value="1">Hà Nội</option>
-                      <option value="2">TPHCM</option>
-                      <option value="3">Đà Nẵng</option>
-                    </select>
-                    <select class="register-partner__select" name="">
-                      <option value="1">Chọn quận/huyện</option>
-                      <option value="1">Đống Đa</option>
-                      <option value="2">Hà Đông</option>
-                      <option value="3">Thanh Xuân</option>
-                    </select>
-                    <select class="register-partner__select" name="">
-                      <option value="1">Chọn loại dịch vụ</option>
-                      <option value="1">Xe cá nhân</option>
-                      <option value="2">Xe hợp đồng</option>
-                      <option value="3">Thuê xe sân bay</option>
-                    </select>
-                  </div>
-                  <div class="col-lg-4 register-partner__banner"><a herf="#" title>
-                      <figure class="image-lazy register-partner__image image-lazy--contain"><img class="image-lazy__img" src="img/partner/register-banner.jpg" title="" alt=""/></figure></a></div>
-                  <button class="btn btn-primary register-partner__link" id="frmButton" type="submit">Đăng Ký</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -222,7 +242,7 @@
             </div>
             <div class="section-content">
               <div class="row">
-                <div class="col-lg-3 join-us__col">
+                <div class="col-md-6 col-lg-3 join-us__col">
                   <div class="join-us__item">
                     <div class="join-us__item-inner">
                       <div class="join-us__item-icon">
@@ -233,7 +253,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 join-us__col">
+                <div class="col-md-6 col-lg-3 join-us__col">
                   <div class="join-us__item">
                     <div class="join-us__item-inner">
                       <div class="join-us__item-icon">
@@ -244,7 +264,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 join-us__col">
+                <div class="col-md-6 col-lg-3 join-us__col">
                   <div class="join-us__item">
                     <div class="join-us__item-inner">
                       <div class="join-us__item-icon">
@@ -255,7 +275,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 join-us__col">
+                <div class="col-md-6 col-lg-3 join-us__col">
                   <div class="join-us__item">
                     <div class="join-us__item-inner">
                       <div class="join-us__item-icon">
@@ -277,32 +297,42 @@
             </div>
             <div class="section-content home-howto partner-howto">
               <div class="home-howto__inner">
-                <div class="home-howto__item">
-                  <div class="home-howto__item-inner">
-                    <div class="home-howto__item-icon"></div>
-                    <div class="home-howto__item-title">1. Đăng ký</div>
-                    <div class="home-howto__item-text">Các email xác nhận đơn hàng sẽ được gửi đến khách hàng ngay sau hoàn tất việc đặt xe. Thông tin chuyến xe và tài xế sẽ được gửi bằng tin nhắn SMS đến khách hàng/ hành khách trước chuyến đi ít nhất một ngày.</div>
+                <div class="row">
+                  <div class="col-md-6 partner-howto__item">
+                    <div class="home-howto__item-inner">
+                      <div class="home-howto__item-icon">
+                        <figure class="image-lazy image-lazy--normal"><img class="image-lazy__img" src="img/partner/icon-doitac-1.jpg" title="" alt=""/></figure>
+                      </div>
+                      <div class="home-howto__item-title">1. Đăng ký</div>
+                      <div class="home-howto__item-text">Các email xác nhận đơn hàng sẽ được gửi đến khách hàng ngay sau hoàn tất việc đặt xe. Thông tin chuyến xe và tài xế sẽ được gửi bằng tin nhắn SMS đến khách hàng/ hành khách trước chuyến đi ít nhất một ngày.</div>
+                    </div>
                   </div>
-                </div>
-                <div class="home-howto__item">
-                  <div class="home-howto__item-inner">
-                    <div class="home-howto__item-icon"></div>
-                    <div class="home-howto__item-title">2. Kích hoạt tài khoản</div>
-                    <div class="home-howto__item-text">Tài xế sẽ đón khách tại địa điểm và thời gian đã định và chở khách đi theo hành trình và lịch trình đã được lập trong đơn hàng. Nếu có các yêu cầu phát sinh, khách vẫn có thể trao đổi với tài xế để điều chỉnh hành trình và lịch trình.</div>
+                  <div class="col-md-6 partner-howto__item">
+                    <div class="home-howto__item-inner">
+                      <div class="home-howto__item-icon">
+                        <figure class="image-lazy image-lazy--normal"><img class="image-lazy__img" src="img/partner/icon-doitac-2.jpg" title="" alt=""/></figure>
+                      </div>
+                      <div class="home-howto__item-title">2. Kích hoạt tài khoản</div>
+                      <div class="home-howto__item-text">Tài xế sẽ đón khách tại địa điểm và thời gian đã định và chở khách đi theo hành trình và lịch trình đã được lập trong đơn hàng. Nếu có các yêu cầu phát sinh, khách vẫn có thể trao đổi với tài xế để điều chỉnh hành trình và lịch trình.</div>
+                    </div>
                   </div>
-                </div>
-                <div class="home-howto__item">
-                  <div class="home-howto__item-inner">
-                    <div class="home-howto__item-icon"></div>
-                    <div class="home-howto__item-title">3. Đặt chuyến</div>
-                    <div class="home-howto__item-text">Khách hàng thanh toán trực tiếp phần phí thuê xe còn lại với tài xế, chủ xe, hay với Viotrans. Nếu các yêu cầu phát sinh làm tăng thời gian và quãng đường sử dụng xe thì phí phát sinh sẽ được tính thêm theo biểu phí của Viotrans.</div>
+                  <div class="col-md-6 partner-howto__item">
+                    <div class="home-howto__item-inner">
+                      <div class="home-howto__item-icon">
+                        <figure class="image-lazy image-lazy--normal"><img class="image-lazy__img" src="img/partner/icon-doitac-3.jpg" title="" alt=""/></figure>
+                      </div>
+                      <div class="home-howto__item-title">3. Đặt chuyến</div>
+                      <div class="home-howto__item-text">Khách hàng thanh toán trực tiếp phần phí thuê xe còn lại với tài xế, chủ xe, hay với Viotrans. Nếu các yêu cầu phát sinh làm tăng thời gian và quãng đường sử dụng xe thì phí phát sinh sẽ được tính thêm theo biểu phí của Viotrans.</div>
+                    </div>
                   </div>
-                </div>
-                <div class="home-howto__item">
-                  <div class="home-howto__item-inner">
-                    <div class="home-howto__item-icon"></div>
-                    <div class="home-howto__item-title">4. Kết thúc, nhận hoa hồng</div>
-                    <div class="home-howto__item-text">Khách hàng thanh toán trực tiếp phần phí thuê xe còn lại với tài xế, chủ xe, hay với Viotrans. Nếu các yêu cầu phát sinh làm tăng thời gian và quãng đường sử dụng xe thì phí phát sinh sẽ được tính thêm theo biểu phí của Viotrans.</div>
+                  <div class="col-md-6 partner-howto__item">
+                    <div class="home-howto__item-inner">
+                      <div class="home-howto__item-icon">
+                        <figure class="image-lazy image-lazy--normal"><img class="image-lazy__img" src="img/partner/icon-doitac-4.jpg" title="" alt=""/></figure>
+                      </div>
+                      <div class="home-howto__item-title">4. Kết thúc, nhận hoa hồng</div>
+                      <div class="home-howto__item-text">Khách hàng thanh toán trực tiếp phần phí thuê xe còn lại với tài xế, chủ xe, hay với Viotrans. Nếu các yêu cầu phát sinh làm tăng thời gian và quãng đường sử dụng xe thì phí phát sinh sẽ được tính thêm theo biểu phí của Viotrans.</div>
+                    </div>
                   </div>
                 </div>
               </div>
